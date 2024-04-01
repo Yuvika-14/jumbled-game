@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my array game</title>
+</head>
+<style>
+    body{
+        background-color:#5372F0;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        min-height: 100vh;
+        border:1.2px solid white;
+    }
+    .container{
+        height:350px;
+        width:500px;
+        border-radius:7px;
+        background:#ffff;
+        border:12px solid black;
+    }
+    .content{
+        text-align:center;
+    }
+    .butt{
+        text-align:center;
+    }
+    
+    
+    
+    h1{
+        text-align:center;
+        
+    }
+    .lama{
+        margin-top:8px;
+        text-align:center;
+       
+       
+    }
+    .lama input{
+        height:40px;
+        width:50%;
+        outline:none;
+        font-size:18px;
+    }
+    .butt button{
+        
+        margin:10px;
+    }
+    .word{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        font-size:26px;
+    
+    }
+   
+
+</style>
+<body>
+    <div class="container">
+        <h1>JUMBLED GAME</h1>
+    <div class="word">enaxpnios</div>
+    
+        <div class="lama">
+            <input type="text" placeholder="enter a valid word">
+        </div>
+          
+        
+        
+        <div class="content">
+            <p class="hint">Hint: <span>the process of flying</span></p>
+            <p class="time">Time Left:<span><b>30s</b></span></p>
+        </div>
+       
+       
+            <div class="butt">
+                <button class="play" >Refresh Word</button>
+                <button class="plate" >Check Word</button>
+            </div>
+        
+    </div>
+
+
+    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
